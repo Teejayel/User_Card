@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.card {
+    width: 500px;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.banner, .info {
+    border-radius: 3px;
+}
+
+.banner {
+    width: 500px;
+    height: 65px;
+    background-color: darkgreen;
+    border: 3px solid darkgreen;
+    border-bottom: none;
+}
+
+[src^="user"] {
+    height: 65px;
+    float: left;
+    margin: 33px 0 0 20px;
+}
+
+.info {
+    width: 482px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid lightgrey;
+    border-top: none;
+    padding-top: 30px;
+    padding-left: 18px;
+}
+
+.info img {
+    height: 14px;
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.location {
+    font-size: 15px;
+    margin: 2px 0 7px 0;
+}
+
+p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+a, p{
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin: 8px 0 15px 0;
+}
+
